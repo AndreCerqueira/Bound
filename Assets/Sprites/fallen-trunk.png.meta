@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,7 +95,82 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: fallen-trunk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7, y: -6.5}
+        - {x: -7, y: -1.5}
+        - {x: 8, y: 0.5}
+        - {x: 8, y: -4.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7a0e64ced17b34680ce5f64959b129
+      internalID: -920550183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallen-trunk_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -4.5}
+        - {x: -8, y: 0.5}
+        - {x: 8, y: 0.5}
+        - {x: 8, y: -4.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d28b356949967842aa1d01579d26b13
+      internalID: -1363635655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallen-trunk_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -4.5}
+        - {x: -8, y: 0.5}
+        - {x: 6, y: 0.5}
+        - {x: 6, y: -5.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b43ca7674ba0244995459e7d06f2796
+      internalID: -528483382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape:
     - - {x: -22.5, y: -6.5}
@@ -110,7 +185,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fallen-trunk_0: -920550183
+      fallen-trunk_1: -1363635655
+      fallen-trunk_2: -528483382
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

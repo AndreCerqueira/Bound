@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b93af9412bd9fb84eb5d44b05de56343
+guid: b499273e0e589f94ab7a659193bc05d8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -95,94 +95,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: wooden-bridge-tiles_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 20
-        height: 38
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -9, y: 5}
-        - {x: -9, y: 8}
-        - {x: -3, y: 8}
-        - {x: -3, y: 5}
-      - - {x: -9, y: -19}
-        - {x: -9, y: -16}
-        - {x: -3, y: -16}
-        - {x: -3, y: -19}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 02bc7f63457d74346aaf61c1d66e14b6
-      internalID: -1302603337
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wooden-bridge-tiles_1
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 0
-        width: 20
-        height: 38
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: 3, y: -19}
-        - {x: 3, y: -16}
-        - {x: 9, y: -16}
-        - {x: 9, y: -19}
-      - - {x: 3, y: 5}
-        - {x: 3, y: 8}
-        - {x: 9, y: 8}
-        - {x: 9, y: 5}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8727324b62235114a8e8bb145cccd765
-      internalID: -1926490503
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wooden-bridge-tiles_2
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 0
-        width: 16
-        height: 38
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -8, y: -15}
-        - {x: -8, y: -13}
-        - {x: 8, y: -13}
-        - {x: 8, y: -15}
-      - - {x: -8, y: 6}
-        - {x: -8, y: 13}
-        - {x: 8, y: 13}
-        - {x: 8, y: 6}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 975205c21d357974da5ece30d48a8f7f
-      internalID: -221839240
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -193,13 +106,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      wooden-bridge-tiles_0: -1302603337
-      wooden-bridge-tiles_1: -1926490503
-      wooden-bridge-tiles_2: -221839240
-      wooden-bridge-tiles_3: 1639691869
-      wooden-bridge-tiles_4: 725106062
-      wooden-bridge-tiles_5: -410129086
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

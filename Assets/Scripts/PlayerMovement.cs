@@ -7,9 +7,6 @@ using UnityEngine.Tilemaps;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField]
-    private Tilemap _obstacles;
-
-    [SerializeField]
     private float _speed;
 
     private Rigidbody2D _rigidbody;
@@ -18,22 +15,22 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 _smoothedMovementInput;
     private Vector2 _movementInputSmoothVelocity;
 
+    public bool isMoving => _movementInput != Vector2.zero;
+
+
     private void Awake()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
     }
+    
 
     private void FixedUpdate()
     {
         SetPlayerVelocity();
     }
 
-    private void Update()
-    {
-
-    }
-
+    
     private void SetPlayerVelocity()
     {
         _smoothedMovementInput = Vector2.SmoothDamp(_smoothedMovementInput, _movementInput, ref _movementInputSmoothVelocity, 0.1f);
@@ -43,15 +40,9 @@ public class PlayerMovement : MonoBehaviour
         _animator.SetFloat("vertical", _smoothedMovementInput.y);
     }
 
+    
     private void OnMove(InputValue inputValue)
     {
         _movementInput = inputValue.Get<Vector2>();
     }
-
-    
-    //void OnDrawGizmos()
-    //{
-    //    Gizmos.color = Color.red;
-    //    Gizmos.DrawWireSphere(GetComponent<Rigidbody2D>().position, 0.25f);
-    //}
 }

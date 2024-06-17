@@ -28,13 +28,17 @@ public class BridgeCollider : MonoBehaviour
 
     private void ToggleColliders()
     {
-        var colliders = isOverpass ? bridgeOverpassColliders : bridgeUnderpassColliders;
-
-        foreach (var colliderObject in colliders)
+        foreach (var colliderObject in bridgeOverpassColliders)
         {
             var collider = colliderObject.GetComponent<Collider2D>();
-            collider.enabled = !collider.enabled;
+            collider.enabled = !isOverpass;
+            player.sortingOrder = isOverpass ? 0 : 1;
+        }
 
+        foreach (var colliderObject in bridgeUnderpassColliders)
+        {
+            var collider = colliderObject.GetComponent<Collider2D>();
+            collider.enabled = isOverpass;
             player.sortingOrder = isOverpass ? 0 : 1;
         }
 
