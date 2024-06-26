@@ -105,8 +105,6 @@ public class GridManager : MonoBehaviour
     }
 
 
-    // change the highlighted tile to tilled soil
-
     /// <summary>
     /// Changes the highlighted tile to tilled soil.
     /// </summary>
@@ -119,6 +117,21 @@ public class GridManager : MonoBehaviour
             return;
         
         groundTilemap.SetTile(GetHighlightedTilePosition(), tilledSoilTile);
+    }
+
+
+    /// <summary>
+    /// Changes the highlighted tilled tile to moisten soil.
+    /// </summary>
+    /// <remarks>
+    /// The highlighted tile must be a tilled soil tile to be changed to moisten soil.
+    /// </remarks>
+    public void ChangeHighlightedTilledTileToMoistenSoil()
+    {
+        if (groundTilemap.GetTile(GetHighlightedTilePosition()) != tilledSoilTile)
+            return;
+
+        groundTilemap.SetTile(GetHighlightedTilePosition(), moistenSoilTile);
     }
 
 }

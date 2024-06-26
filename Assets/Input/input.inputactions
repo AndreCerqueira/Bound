@@ -15,6 +15,15 @@
                     "initialStateCheck": true
                 },
                 {
+                    "name": "SelectHotbarSlot",
+                    "type": "Button",
+                    "id": "f88ff6c1-2d68-4a9c-a72e-5fccf1a8efae",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
                     "name": "Look",
                     "type": "Value",
                     "id": "d39e897e-7907-4855-829a-2ffd71360a4f",
@@ -251,6 +260,116 @@
                     "processors": "",
                     "groups": "XR",
                     "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9d3cf416-0309-46ba-bc5a-c47832b7b9f1",
+                    "path": "<Keyboard>/1",
+                    "interactions": "Press",
+                    "processors": "Scale",
+                    "groups": "Keyboard&Mouse",
+                    "action": "SelectHotbarSlot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "78b6920a-f9d2-4bd8-b770-56b686cd7520",
+                    "path": "<Keyboard>/2",
+                    "interactions": "Press",
+                    "processors": "Scale(factor=2)",
+                    "groups": "Keyboard&Mouse",
+                    "action": "SelectHotbarSlot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8c068e3d-29a1-41a6-a814-a898c14ff413",
+                    "path": "<Keyboard>/3",
+                    "interactions": "Press",
+                    "processors": "Scale(factor=3)",
+                    "groups": "Keyboard&Mouse",
+                    "action": "SelectHotbarSlot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9d8cee90-987a-4b41-96b3-c3f74ca620db",
+                    "path": "<Keyboard>/4",
+                    "interactions": "Press",
+                    "processors": "Scale(factor=4)",
+                    "groups": "Keyboard&Mouse",
+                    "action": "SelectHotbarSlot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "79814996-52ec-40ff-b583-fbf5422ea6c7",
+                    "path": "<Keyboard>/5",
+                    "interactions": "Press",
+                    "processors": "Scale(factor=5)",
+                    "groups": "Keyboard&Mouse",
+                    "action": "SelectHotbarSlot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "609a9885-d462-4c94-ade7-e2fe9d5eeada",
+                    "path": "<Keyboard>/6",
+                    "interactions": "Press",
+                    "processors": "Scale(factor=6)",
+                    "groups": "Keyboard&Mouse",
+                    "action": "SelectHotbarSlot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b126fb21-c91b-474d-a247-c2d613eca2e5",
+                    "path": "<Keyboard>/7",
+                    "interactions": "Press",
+                    "processors": "Scale(factor=7)",
+                    "groups": "Keyboard&Mouse",
+                    "action": "SelectHotbarSlot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "37bbaf04-ad41-415e-9cf6-e3bc12add567",
+                    "path": "<Keyboard>/8",
+                    "interactions": "Press",
+                    "processors": "Scale(factor=8)",
+                    "groups": "Keyboard&Mouse",
+                    "action": "SelectHotbarSlot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "838cb050-1636-44e5-b2c2-4937e191bbb0",
+                    "path": "<Keyboard>/9",
+                    "interactions": "Press",
+                    "processors": "Scale(factor=9)",
+                    "groups": "Keyboard&Mouse",
+                    "action": "SelectHotbarSlot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4bd42c36-ac6a-4cfe-8c07-3cc4b8bb97c7",
+                    "path": "<Keyboard>/0",
+                    "interactions": "Press",
+                    "processors": "Scale(factor=0)",
+                    "groups": "Keyboard&Mouse",
+                    "action": "SelectHotbarSlot",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

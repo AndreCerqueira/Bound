@@ -8,16 +8,11 @@ public class PlayerActions : MonoBehaviour
 {
     private Vector3Int _highlightedTilePosition => GridManager.instance.GetHighlightedTilePosition();
 
+    private ITool _selectedTool => HotbarManager.instance.selectedTool;
+
 
     private void OnFire(InputValue inputValue)
     {
-        // log
-        Debug.Log("Fire: " + _highlightedTilePosition);
-
-        // log
-        Debug.Log("Is Ground: " + GridManager.instance.IsHighlightedTileDirt());
-
-        // if is ground, change tile to Tilled Soil
-
+        _selectedTool.Use();
     }
 }
